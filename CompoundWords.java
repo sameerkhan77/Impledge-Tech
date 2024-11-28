@@ -28,10 +28,9 @@ public class CompoundWords {
             long timeTaken = endTime - startTime;
 
             // print the results
-            System.out.println("\nResults for file: " + fileName);
-            System.out.println("Longest Compound Word: " + result[0]);
+            System.out.println("\nLongest Compound Word: " + result[0]);
             System.out.println("Second Longest Compound Word: " + result[1]);
-            System.out.println("Time taken to process file: " + timeTaken + " milliseconds");
+            System.out.println("Time taken to process file " + fileName + " : " + timeTaken + " milliseconds");
 
         } catch (IOException e) {
             System.err.println("Error processing file: " + fileName);
